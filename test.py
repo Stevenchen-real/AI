@@ -1,2 +1,2 @@
 import tensorflow as tf
-x = tf.random.uniform([10000,10000])
+print(tf.config.list_physical_devices('GPU'))
